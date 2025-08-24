@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Cart</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Cart - Dark Store</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-  <header>
-    <h1>Your Shopping Cart 🛒</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="products.html">Products</a>
-    </nav>
-  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="cart.html">Cart (<span id="cart-count">0</span>)</a></li>
+    </ul>
+  </nav>
 
-  <main>
-    <div id="cart-items"></div>
-    <h3 id="cart-total"></h3>
-  </main>
+  <h1>Your Cart</h1>
+
+  <div class="cart-wrap">
+    <table class="cart-table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Price</th>
+          <th>Qty</th>
+          <th>Subtotal</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="cart-body"></tbody>
+    </table>
+
+    <div class="cart-summary">
+      <div class="line"><span>Items:</span><strong id="cart-items-count">0</strong></div>
+      <div class="line"><span>Total:</span><strong id="cart-total">0</strong></div>
+      <div class="actions">
+        <button id="clear-cart">Clear Cart</button>
+        <button id="checkout">Checkout</button>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
