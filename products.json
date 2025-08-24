@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "image": "https://via.placeholder.com/300",
+    "price": 49.99,
+    "description": "High-quality sound with noise cancellation."
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch",
+    "image": "https://via.placeholder.com/300",
+    "price": 89.99,
+    "description": "Track your fitness in style."
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth Speaker",
+    "image": "https://via.placeholder.com/300",
+    "price": 39.99,
+    "description": "Portable and loud, perfect for outdoor use."
+  }
+]
