@@ -1,23 +1,134 @@
 [
   {
-    "id": 1,
-    "name": "Wireless Headphones",
-    "image": "https://via.placeholder.com/300",
-    "price": 49.99,
-    "description": "High-quality sound with noise cancellation."
+    "id": 101,
+    "name": "Matte Lipstick - Ruby",
+    "category": "Makeup",
+    "image": "https://via.placeholder.com/600x600?text=Matte+Lipstick",
+    "price": 1199,
+    "oldPrice": 1499,
+    "rating": 4.6,
+    "sku": "MK-LIP-001",
+    "description": "Long-lasting matte lipstick with rich pigment."
   },
   {
-    "id": 2,
-    "name": "Smart Watch",
-    "image": "https://via.placeholder.com/300",
-    "price": 89.99,
-    "description": "Track your fitness in style."
+    "id": 102,
+    "name": "Velvet Lip Gloss",
+    "category": "Makeup",
+    "image": "https://via.placeholder.com/600x600?text=Velvet+Gloss",
+    "price": 999,
+    "oldPrice": 1199,
+    "rating": 4.3,
+    "sku": "MK-LIP-002",
+    "description": "Non-sticky shine with nourishing oils."
   },
   {
-    "id": 3,
-    "name": "Bluetooth Speaker",
-    "image": "https://via.placeholder.com/300",
-    "price": 39.99,
-    "description": "Portable and loud, perfect for outdoor use."
+    "id": 103,
+    "name": "Liquid Eyeliner Pen",
+    "category": "Makeup",
+    "image": "https://via.placeholder.com/600x600?text=Eyeliner",
+    "price": 799,
+    "oldPrice": 999,
+    "rating": 4.5,
+    "sku": "MK-EYE-001",
+    "description": "Ultra-black, smudge-proof precision tip."
+  },
+  {
+    "id": 201,
+    "name": "Hydrating Face Wash",
+    "category": "Skincare",
+    "image": "https://via.placeholder.com/600x600?text=Face+Wash",
+    "price": 1299,
+    "oldPrice": 1599,
+    "rating": 4.4,
+    "sku": "SK-FW-001",
+    "description": "Gentle cleanser with hyaluronic acid."
+  },
+  {
+    "id": 202,
+    "name": "Vitamin C Serum",
+    "category": "Skincare",
+    "image": "https://via.placeholder.com/600x600?text=Vitamin+C+Serum",
+    "price": 2499,
+    "oldPrice": 2999,
+    "rating": 4.7,
+    "sku": "SK-SER-001",
+    "description": "Brightens and evens skin tone."
+  },
+  {
+    "id": 203,
+    "name": "SPF 50 Sunscreen",
+    "category": "Skincare",
+    "image": "https://via.placeholder.com/600x600?text=SPF+50",
+    "price": 1799,
+    "oldPrice": 1999,
+    "rating": 4.6,
+    "sku": "SK-SPF-050",
+    "description": "Broad-spectrum protection with lightweight feel."
+  },
+  {
+    "id": 301,
+    "name": "Argan Hair Oil",
+    "category": "Hair",
+    "image": "https://via.placeholder.com/600x600?text=Argan+Oil",
+    "price": 1399,
+    "oldPrice": 1699,
+    "rating": 4.5,
+    "sku": "HR-OIL-001",
+    "description": "Nourishes and adds shine, non-greasy."
+  },
+  {
+    "id": 302,
+    "name": "Anti-Frizz Shampoo",
+    "category": "Hair",
+    "image": "https://via.placeholder.com/600x600?text=Shampoo",
+    "price": 1199,
+    "oldPrice": 1499,
+    "rating": 4.2,
+    "sku": "HR-SH-001",
+    "description": "Smooth finish with keratin complex."
+  },
+  {
+    "id": 401,
+    "name": "Eau de Parfum – Bloom",
+    "category": "Fragrance",
+    "image": "https://via.placeholder.com/600x600?text=Eau+de+Parfum",
+    "price": 3499,
+    "oldPrice": 3999,
+    "rating": 4.4,
+    "sku": "FR-EDP-001",
+    "description": "Floral notes with a warm base."
+  },
+  {
+    "id": 402,
+    "name": "Body Mist – Fresh",
+    "category": "Fragrance",
+    "image": "https://via.placeholder.com/600x600?text=Body+Mist",
+    "price": 1499,
+    "oldPrice": 1699,
+    "rating": 4.1,
+    "sku": "FR-MIST-001",
+    "description": "Light, everyday freshness."
+  },
+  {
+    "id": 501,
+    "name": "Makeup Brush Set (8 pcs)",
+    "category": "Accessories",
+    "image": "https://via.placeholder.com/600x600?text=Brush+Set",
+    "price": 1999,
+    "oldPrice": 2499,
+    "rating": 4.3,
+    "sku": "AC-BRS-008",
+    "description": "Soft synthetic brushes for face and eyes."
+  },
+  {
+    "id": 502,
+    "name": "Cosmetic Organizer Box",
+    "category": "Accessories",
+    "image": "https://via.placeholder.com/600x600?text=Organizer",
+    "price": 1599,
+    "oldPrice": 1899,
+    "rating": 4.0,
+    "sku": "AC-ORG-001",
+    "description": "Clear acrylic box with compartments."
   }
 ]
